@@ -43,7 +43,7 @@ const Home = ({ navigation }) => {
       </Profile>
       <Chat>
         <Title>Conversas</Title>
-        <Conversa>
+        <Conversa onPress={()=>{ navigation.navigate('Chat')}}>
           <ImageUser source={require('../../../assets/gabriela.jpg')} />
           <View>
             <NameUser>Gabriela Martins</NameUser>

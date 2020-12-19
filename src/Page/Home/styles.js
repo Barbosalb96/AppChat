@@ -62,7 +62,7 @@ export const Title = styled.Text`
 `;
 
 
-export const Conversa = styled.View`
+export const Conversa = styled.TouchableOpacity`
 flex-direction:row;
 padding:8px 0px;
 margin:10px 0px;
