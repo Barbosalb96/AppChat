@@ -25,12 +25,12 @@ const SingIn = ({ navigation }) => {
     <Container>
       <ImagaBanner source={require('../../../assets/Banner.png')} />
       <Input value={Email} onChangeText={(Text => setEmail(Text))} placeholder='Email' keyboardType='email-address' />
-      <Input value={Password} secureTextEntry={true} onChangeText={(pass) => setPassword(pass)} placeholder='Password' keyboardType='visible-password' autoCorrect={false} />
+      <Input value={Password}  secureTextEntry={true} onChangeText={(pass) => setPassword(pass)} placeholder='Password' keyboardType='visible-password' autoCorrect={false} />
       <BtnLogin onPress={Logar}>
         <TextLogin>Entrar</TextLogin>
       </BtnLogin>
 
-      <Text>{Error}</Text>
+      <Text style={{color:'red',fontSize:15,marginTop:15}}>{Error}</Text>
 
     </Container>
   );

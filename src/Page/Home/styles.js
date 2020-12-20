@@ -33,7 +33,6 @@ export const ProfileImage = styled.Image`
 width:80px;
 height:80px;
 border-radius:90px;
-font-weight:bold;
 `;
 
 export const ProfileName = styled.Text`
